@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # created by yao
-# improve by superping
+# improved by superping
 # 2016.12.23
 import sys
 from PIL import Image
@@ -31,5 +31,5 @@ for index in range(1,maxLineNumber):
     pasteImg( startY, index )
 
 
-im.save('1239788822.dealed.jpg')
+im.save(sys.argv[1]+'.dealed.jpg')
 im.show()
